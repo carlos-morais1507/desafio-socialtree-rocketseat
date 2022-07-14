@@ -1,0 +1,63 @@
+*{
+    background-color: #1B2430;
+    font-family: Poppins;
+}
+
+
+.h_container{
+    margin-top: 50px;
+    
+}
+
+
+.foto_perfil{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.foto_perfil img{
+    max-width: 15%;
+    border-radius: 100%;
+    padding: 5px;
+    border-style: solid;
+    border-color: #BB99DD;
+}
+
+p{
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    color: #BB99DD;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.links ul{
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+.links button{
+    margin: 5px;
+    padding: 10px 100px;
+    border: solid;
+    border-color: #BB99DD;
+    font-weight: bold;
+    font-size: 20px;
+    color: #BB99DD;
+    cursor: pointer;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.redes-sociais a{
+    margin: 20px;
+}
